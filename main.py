@@ -11,7 +11,7 @@ driver.maximize_window()
 driver.get("https://automationintesting.online")
 
 name_input = driver.find_element(By.ID, 'name')
-name_input.send_keys("niezz")
+name_input.send_keys("Jonathan")
 
 time.sleep(1)
 
@@ -21,12 +21,12 @@ email_input.send_keys("test@gmail.com")
 time.sleep(1)
 
 phone_input = driver.find_element(By.ID, 'phone')
-phone_input.send_keys("8748764876497")
+phone_input.send_keys("084671268124")
 
 time.sleep(1)
 
 subject_input = driver.find_element(By.ID, 'subject')
-subject_input.send_keys("nigga wut")
+subject_input.send_keys("TestTest")
 
 time.sleep(1)
 
